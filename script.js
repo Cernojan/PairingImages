@@ -11,13 +11,13 @@ function generateImages() {
   //let j = getRandomInteger(1, 8);
   images.length = 0;
 
-  for (i = 1; i <= 8; i++) {
+  for (i = 1; i <= 11; i++) {
     //images.push("https://picsum.photos/300/300?random=" + i);
     images.push("images/data/" + i + ".png");
   }
   
   //images.push(images[Math.ceil(Math.random(1, 5))]);
-  images.push(images[getRandomInteger(0, 7)]);
+  images.push(images[getRandomInteger(0, 10)]);
 }
 
   let gameContainer = document.getElementById("game");
